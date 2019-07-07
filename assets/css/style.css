@@ -1,0 +1,177 @@
+body{
+    font-family: 'Karla', sans-serif;
+}
+#pageBackground{
+    background-image: url("../images/brenda.jpg");
+    background-attachment: fixed;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-color: rgb(205, 205, 205);
+    width: 100%;
+    min-height: 100vh;
+    height: 100%;
+}
+.content{
+    background-color: rgba(255, 255, 255,.8);
+    height: fit-content;
+    width: fit-content;
+    padding-left: 3%;
+    padding-right: 3%;
+    margin: 0 auto;
+}
+#topTitle{
+    font-size: 2em;
+    cursor: pointer;
+}
+.dropdownItems{
+    background-color: white ;
+    
+}
+.dropdownItems:hover{
+    background-color: rgb(205, 205, 205);
+}
+/* Intro styling */
+#intro-headText{
+    margin-top: 20px;
+    padding-top: 5%;
+    font-size: 10em;
+}
+#intro-text{
+    font-size: 2em;
+    line-height: 1.5;
+    font-weight: bold;
+    padding-bottom: 5%;
+}
+
+#about-headText{
+    margin-top: 20px;
+    padding-top: 5%;
+    font-size: 5em;
+}
+#about-text{
+    font-size: 2em;
+    line-height: 1.25;
+    padding-bottom: 5%;
+    font-weight: 500;
+}
+/* contact styling */
+#contact-headText{
+    margin-top: 20px;
+    padding-top: 5%;
+    font-size: 5em;
+    padding-bottom: 2%;
+    padding-right: 2%;
+    padding-left: 2%;
+}
+.contact-text{
+    font-size: 2em;
+    line-height: 1.25;
+    font-weight: 500;
+    padding-right: 2%;
+    padding-left: 2%;
+}
+.ourImage{
+    margin-top: 5%;
+    width: 10em;
+    height: 10em;
+    padding-bottom: 5%;
+    padding-right: 2%;
+    padding-left: 2%;
+    cursor: pointer;
+}
+
+#portfolio-headText{
+    margin-top: 20px;
+    padding-top: 3%;
+    font-size: 5em;
+}
+.card{
+    width: 90%;
+    margin: 3% auto;
+    border-radius: 50px;
+}
+.card .card-content{
+    padding: 15px;
+}
+
+.card-image{
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+.row .col{
+    padding: 0;
+}
+.card .card-image .card-title {
+    position: absolute;
+    right: 0;
+    margin: auto;
+}
+.card-textcontent{
+    font-size: 1.18em;
+}
+
+
+/* responsive text sizes */
+@media only screen and (max-width: 570px){
+    #portfolio-headText{
+        font-size: 4.5em;
+    }
+    #contact-headText{
+        font-size: 4.5em;
+    }
+    .contact-text{
+        font-size: 1.55em;
+    }
+    #about-text{
+        font-size: 1.55em;
+    }
+    #about-headText{
+        font-size: 4.5em;
+    }
+    #topTitle{
+        font-size: 1.5em;
+    }
+    #intro-headText{
+        font-size: 8.5em;
+    }
+    #intro-text{
+        font-size: 1.65em;
+    }
+    .ourImage{
+        width: 8.5em;
+        height: 8.5em;
+    }
+    
+}
+@media only screen and (max-width: 350px){
+    #portfolio-headText{
+        font-size: 4em;
+    }
+    #contact-headText{
+        font-size: 4em;
+    }
+    .contact-text{
+        font-size: 1.40em;
+    }
+    #topTitle{
+        font-size: 1.5em;
+    }
+    #intro-headText{
+        font-size: 8em;
+    }
+    #intro-text{
+        font-size: 1.5em;
+    }
+    #about-text{
+        font-size: 1.35em;
+    }
+    #about-headText{
+        font-size: 4em;
+    }
+    .ourImage{
+        width: 6.5em;
+        height: 6.5em;
+    }
+}
+
